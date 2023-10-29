@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earn | Decentralized Perpetual</title>
+    <link rel="stylesheet" href="./Earn.css" />
+  </head>
+  <body>
+    <div class="App">
+      <div class="App-content">
+        <header>
+          <div class="App-header large">
+            <div class="App-header-container-left">
+              <div class="App-header-menu-icon-block">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  class="App-header-menu-icon"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                    <path
+                      d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+
+              <a class="App-header-link-main" href="#">
+                <img src="./Images/New Logo.png" alt="Logo" />
+                <p class="color">Romi Finance</p>
+              </a>
+            </div>
+            <div class="App-header-container-left">
+              <div class="App-header-links">
+                <div class="App-header-link-container">
+                  <a href="./index.html">Home</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="./Dashboard.html">Dashboard</a>
+                </div>
+                <div class="App-header-dropdown">
+                  <div class="dropbtn">
+                    <a href="#" aria-current="page">NFT</a>
+                  </div>
+                  <div class="header-dropdown-content">
+                    <a href="#">
+                      <div>
+                        <div>Mint</div>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div>
+                        <div>Stake NFT</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">Earn</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">Buy</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">Referral</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">Ecosystem</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">About</a>
+                </div>
+              </div>
+            </div>
+            <div class="App-header-container-right">
+              <div class="App-header-user">
+                <div class="App-header-trade-link">
+                  <a class="default-btn" href="#">Trade</a>
+                </div>
+                <button class="btn btn-primary btn-sm connect-wallets">
+                  <img
+                    class="btn-image"
+                    src="./Images/wallet.svg"
+                    alt="Connect-wallet"
+                  />
+                  <span class="btn-label"
+                    >Connect <span class="wallet">Wallet</span>
+                  </span>
+                </button>
+                <div class="App-header-network">
+                  <div class="network-dropdown" id="headlessui-menu-button-1">
+                    <button class="btn-primary small transparent">
+                      <img
+                        class="network-dropdown-icon"
+                        src="./Images/ethereum.png"
+                        alt="Ethereum"
+                      />
+                    </button>
+                    <div class="network-dropdown-seperator"></div>
+                    <button class="btn-primary small transparent">
+                      <img
+                        src="./Images/dots.png"
+                        alt="More"
+                        style="
+                          color: white;
+                          height: 30px;
+                          width: 30px;
+                          background: transparent;
+                        "
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div
+          class="App-header-links-container App-header-drawer"
+          style="transform: translateX(0%) translateZ(0px)"
+        >
+          <div class="App-header-links">
+            <div class="App-header-links-header">
+              <a class="App-header-link-main" href="#/"
+                ><img src="Images/New Logo.png" alt="ZOMI Logo" />
+                <span class="Romi">Romi Finance</span></a
+              >
+              <div class="App-header-menu-icon-block mobile-cross-menu">
+                <svg
+                  id="Close"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="App-header-menu-icon"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="App-header-link-container">
+              <a href="./index.html" class="">Home</a>
+            </div>
+            <div class="App-header-link-container">
+              <a class="" href="./Dashboard.html">Dashboard</a>
+            </div>
+            <div class="App-header-link-container">
+              <a href="#" aria-current="page">NFT</a>
+            </div>
+          </div>
+          <div class="App-header-link-container">
+            <a aria-current="page" class="active" href="#">Earn</a>
+          </div>
+          <div class="App-header-link-container">
+            <a class="" href="#">Buy</a>
+          </div>
+          <div class="App-header-link-container">
+            <a class="" href="#">Referrals</a>
+          </div>
+          <div class="App-header-link-container">
+            <a class="" href="#">Ecosystem</a>
+          </div>
+          <div class="App-header-link-container">
+            <a href="#" target="_blank" rel="noopener noreferrer">About</a>
+          </div>
+          <div class="App-header-link-container">
+            <a href="#">Settings</a>
+          </div>
+        </div>
+        <div class="default-container page-layout">
+          <div class="section-title-block">
+            <div class="section-title-icon"></div>
+            <div class="section-title-content">
+              <div class="Page-title">Earn</div>
+              <div class="Page-description">
+                Stake $ROMI and $RLP to earn rewards.
+              </div>
+            </div>
+          </div>
+          <div class="StakeV2-content">
+            <div class="StakeV2-cards">
+              <div class="App-card StakeV2-gmx-card">
+                <div class="App-card-title">$ZOMI</div>
+                <div class="App-card-divider"></div>
+                <div class="App-card-content">
+                  <div class="App-card-row">
+                    <div class="label">Price</div>
+                    <div>
+                      <span class="Tooltip nowrap">
+                        <span class="Tooltip-handle">$0.00</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Wallet</div>
+                    <div>... $ROMI ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Staked</div>
+                    <div>... $ROMI ($...)</div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-row">
+                    <div class="label">APR</div>
+                    <div>
+                      <span class="Tooltip">
+                        <span class="Tooltip-handle">...%</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Rewards</div>
+                    <div>
+                      <span class="Tooltip">
+                        <span class="Tooltip-handle">$...</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Multiplier Points APR</div>
+                    <div>
+                      <span class="Tooltip">
+                        <span class="Tooltip-handle">100.00%</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Boost Percentage</div>
+                    <div>
+                      <span class="Tooltip">
+                        <span class="Tooltip-handle">...%</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-row">
+                    <div class="label">Total Staked</div>
+                    <div>0 $ZOMI ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Total Supply</div>
+                    <div>10,000 $ZOMI ($10)</div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-options">
+                    <a class="App-button-option App-card-option" href="#"
+                      >Buy $ZOMI</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="App-card primary StakeV2-total-rewards-card">
+                <div class="App-card-title">Total Rewards</div>
+                <div class="App-card-divider"></div>
+                <div class="App-card-content">
+                  <div class="App-card-row">
+                    <div class="label">ETH (WETH)</div>
+                    <div>... ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">$ZOMI</div>
+                    <div>... ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Escrowed $ZOMI</div>
+                    <div>... ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Multiplier Points</div>
+                    <div>...</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Staked Multiplier Points</div>
+                    <div>...</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Total</div>
+                    <div>$...</div>
+                  </div>
+                  <div class="App-card-bottom-placeholder">
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-options">
+                      <button class="App-button-option App-card-option">
+                        Connect Wallet
+                      </button>
+                    </div>
+                  </div>
+                  <div class="App-card-bottom">
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-options">
+                      <button class="App-button-option App-card-option">
+                        Connect Wallet
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="App-card">
+                <div class="App-card-title">$ZLP (Ethereum)</div>
+                <div class="App-card-divider"></div>
+                <div class="App-card-content">
+                  <div class="App-card-row">
+                    <div class="label">Price</div>
+                    <div>$...</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Wallet</div>
+                    <div>... $ZLP ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Staked</div>
+                    <div>... $ZLP ($...)</div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-row">
+                    <div class="label">APR</div>
+                    <div>
+                      <span class="Tooltip"
+                        ><span class="Tooltip-handle">...%</span></span
+                      >
+                    </div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Rewards</div>
+                    <div>
+                      <span class="Tooltip"
+                        ><span class="Tooltip-handle">$...</span></span
+                      >
+                    </div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-row">
+                    <div class="label">Total Staked</div>
+                    <div>... $ZLP ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Total Supply</div>
+                    <div>... $ZLP ($...)</div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-options">
+                    <a
+                      class="App-button-option App-card-option"
+                      href="#/buy_mlp"
+                      >Buy $ZLP</a
+                    ><a
+                      class="App-button-option App-card-option"
+                      href="#/buy_mlp#redeem"
+                      >Sell $ZLP</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="App-card">
+                <div class="App-card-title">Escrowed $ZOMI</div>
+                <div class="App-card-divider"></div>
+                <div class="App-card-content">
+                  <div class="App-card-row">
+                    <div class="label">Price</div>
+                    <div>$0.00</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Wallet</div>
+                    <div>... esZOMI ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Staked</div>
+                    <div>... esZOMI ($...)</div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-row">
+                    <div class="label">APR</div>
+                    <div>
+                      <div>
+                        <span class="Tooltip"
+                          ><span class="Tooltip-handle">...%</span></span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Multiplier Points APR</div>
+                    <div>
+                      <span class="Tooltip"
+                        ><span class="Tooltip-handle">100.00%</span></span
+                      >
+                    </div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-row">
+                    <div class="label">Total Staked</div>
+                    <div>... esZOMI ($...)</div>
+                  </div>
+                  <div class="App-card-row">
+                    <div class="label">Total Supply</div>
+                    <div>1,023,379 esZOMI ($1,055)</div>
+                  </div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-options">
+                    <button class="App-button-option App-card-option">
+                      Connect Wallet
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="Tab-title-section">
+              <div class="Page-title">Vest</div>
+              <div class="Page-description">
+                Convert esZOMI tokens to $ZOMI tokens.<br />Please read the
+                <a
+                  href="https://docs.zomi.financehow-it-works/rewards"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >vesting details</a
+                >
+                before using the vaults.
+              </div>
+            </div>
+            <div>
+              <div class="StakeV2-cards">
+                <div class="App-card StakeV2-gmx-card">
+                  <div class="App-card-title">$ZOMI Vault</div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-content">
+                    <div class="App-card-row">
+                      <div class="label">Staked Tokens</div>
+                      <div>
+                        <span class="Tooltip"
+                          ><span class="Tooltip-handle">...</span></span
+                        >
+                      </div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Reserved for Vesting</div>
+                      <div>0.00 / ...</div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Vesting Status</div>
+                      <div>
+                        <span class="Tooltip"
+                          ><span class="Tooltip-handle"
+                            >0.0000 / 0.0000</span
+                          ></span
+                        >
+                      </div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Claimable</div>
+                      <div>
+                        <span class="Tooltip"
+                          ><span class="Tooltip-handle"
+                            >0.0000 $ZOMI</span
+                          ></span
+                        >
+                      </div>
+                    </div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-options">
+                      <button class="App-button-option App-card-option">
+                        Connect Wallet
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="App-card StakeV2-gmx-card">
+                  <div class="App-card-title">$ZLP Vault</div>
+                  <div class="App-card-divider"></div>
+                  <div class="App-card-content">
+                    <div class="App-card-row">
+                      <div class="label">Staked Tokens</div>
+                      <div>... $ZLP</div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Reserved for Vesting</div>
+                      <div>0.00 / ...</div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Vesting Status</div>
+                      <div>
+                        <span class="Tooltip"
+                          ><span class="Tooltip-handle"
+                            >0.0000 / 0.0000</span
+                          ></span
+                        >
+                      </div>
+                    </div>
+                    <div class="App-card-row">
+                      <div class="label">Claimable</div>
+                      <div>
+                        <span class="Tooltip"
+                          ><span class="Tooltip-handle"
+                            >0.0000 $ZOMI</span
+                          ></span
+                        >
+                      </div>
+                    </div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-options">
+                      <button class="App-button-option App-card-option">
+                        Connect Wallet
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Footer">
+          <div class="Footer-wrapper">
+            <div class="Footer-logo">
+              <a class="Appain" href="#">
+                <img src="./Images/New Logo.png" alt="Logo" />
+                <p class="color">Romi Finance</p>
+              </a>
+            </div>
+            <div class="Footer-social-link-blocks">
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_twitter.9f35b403.svg" alt="twitter"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_medium.f6051b2e.svg" alt="Logo"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_github.dbd4de8a.svg" alt="Github"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_telegram.af1a4a66.svg" alt="Telegram"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_discord.be4d716c.svg" alt="Discord"
+              /></a>
+            </div>
+            <div class="#">
+              <a href="#" class="Footer-link">Terms and condition</a>
+              <a href="#" class="Footer-link">Referall Terms</a>
+              <a href="#" class="Footer-link Media">Media Kit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

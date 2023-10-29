@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romi | Decentralized Perpetual</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="App">
+      <div class="App-content">
+        <header>
+          <div class="App-header large">
+            <div class="App-header-container-left">
+
+              <div class="App-header-menu-icon-block"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="App-header-menu-icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"></path></g></svg></div>
+
+              <a class="App-header-link-main" href="#">
+                <img src="./Images/New Logo.png" alt="Logo" />
+                <p class="color">Romi Finance</p>
+              </a>
+            </div>
+            <div class="App-header-container-left">
+              <div class="App-header-links">
+                <div class="App-header-link-container">
+                  <a href="#">Home</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="./Dashboard.html">Dashboard</a>
+                </div>
+                <div class="App-header-dropdown">
+                  <div class="dropbtn">
+                    <a href="#" aria-current="page">NFT</a>
+                  </div>
+                  <div class="header-dropdown-content">
+                    <a href="#">
+                      <div>
+                        <div>Mint</div>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div>
+                        <div>Stake NFT</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="./Earn.html">Earn</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">Buy</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">Referral</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">Ecosystem</a>
+                </div>
+                <div class="App-header-link-container">
+                  <a href="#">About</a>
+                </div>
+              </div>
+            </div>
+            <div class="App-header-container-right">
+              <div class="App-header-user">
+                <div class="App-header-trade-link">
+                  <a class="default-btn" href="#">Trade</a>
+                </div>
+                <button class="btn btn-primary btn-sm connect-wallets">
+                  <img
+                    class="btn-image"
+                    src="./Images/wallet.svg"
+                    alt="Connect-wallet"
+                  />
+                  <span class="btn-label"
+                    >Connect <span class="wallet">Wallet</span>
+                  </span>
+                </button>
+                <div class="App-header-network">
+                  <div class="network-dropdown" id="headlessui-menu-button-1">
+                    <button class="btn-primary small transparent">
+                      <img
+                        class="network-dropdown-icon"
+                        src="./Images/ethereum.png"
+                        alt="Ethereum"
+                      />
+                    </button>
+                    <div class="network-dropdown-seperator"></div>
+                    <button class="btn-primary small transparent">
+                      <img
+                        src="./Images/dots.png"
+                        alt="More"
+                        style="
+                          color: white;
+                          height: 30px;
+                          width: 30px;
+                          background: transparent;
+                        "
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div
+          class="App-header-links-container App-header-drawer"
+          style="transform: translateX(0%) translateZ(0px)"
+        >
+          <div class="App-header-links">
+            <div class="App-header-links-header">
+              <a class="App-header-link-main" href="#/"
+                ><img
+                  src="Images/New Logo.png"
+                  alt="ZOMI Logo"
+              /> <span class="Romi">Romi Finance</span></a>
+              <div class="App-header-menu-icon-block mobile-cross-menu">
+                <svg
+                id="Close"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="App-header-menu-icon"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="App-header-link-container">
+              <a href="/" class="#">Home</a>
+            </div>
+            <div class="App-header-link-container">
+              <a class="" href="./Dashboard.html">Dashboard</a>
+            </div>
+            <div class="App-header-link-container">
+                <a href="#" aria-current="page">NFT</a>
+              </div>
+            </div>
+            <div class="App-header-link-container">
+              <a aria-current="page" class="active" href="./Earn.html">Earn</a>
+            </div>
+            <div class="App-header-link-container">
+              <a class="" href="#">Buy</a>
+            </div>
+            <div class="App-header-link-container">
+              <a class="" href="#">Referrals</a>
+            </div>
+            <div class="App-header-link-container">
+              <a class="" href="#">Ecosystem</a>
+            </div>
+            <div class="App-header-link-container">
+              <a
+              href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >About</a
+              >
+            </div>
+            <div class="App-header-link-container">
+              <a href="#">Settings</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="Main-Home">
+          <div class="home">
+            <div class="description">
+              <div class="Home-title-Section">
+                <div class="title">
+                  Decentralized <br />
+                  Perpetual <br />
+                  Exchange
+                </div>
+                <div class="Home-description">
+                  Trade BTC, ETH, AVAX and other top cryptocurrencies with up to
+                  30x leverage directly from your wallet
+                </div>
+                <a class="default-btn" href="#">Launch Exchange</a>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="home-latest-info-block-main">
+                <div class="Home-latest-info-block">
+                  <img
+                    src="./Images/ic_stats.f0a18011.svg"
+                    alt="Home-latest-info__icon"
+                    class="Home-latest-info__icon"
+                  />
+                  <div class="Home-latest-info-content">
+                    <div class="Home-latest-info-content_title">
+                      Total Trading Volume
+                    </div>
+                    <div class="Home-latest-info-content_value">$0</div>
+                  </div>
+                </div>
+              </div>
+              <div class="home-latest-info-block-main">
+                <div class="Home-latest-info-block">
+                  <img
+                    src="./Images/ic_trading.2c53815a.svg"
+                    alt="Home-latest-info__icon"
+                    class="Home-latest-info__icon"
+                  />
+                  <div class="Home-latest-info-content">
+                    <div class="Home-latest-info-content_title">
+                      Open Interest
+                    </div>
+                    <div class="Home-latest-info-content_value">$0</div>
+                  </div>
+                </div>
+              </div>
+              <div class="home-latest-info-block-main">
+                <div class="Home-latest-info-block">
+                  <img
+                    src="./Images/ic_totaluser.ae09b310.svg"
+                    alt="Home-latest-info__icon"
+                    class="Home-latest-info__icon"
+                  />
+                  <div class="Home-latest-info-content">
+                    <div class="Home-latest-info-content_title">Total User</div>
+                    <div class="Home-latest-info-content_value">0</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Home-benefits-section">
+            <div class="Home-benefits default-container">
+              <div class="Home-benefit">
+                <div class="Home-benefit-icon">
+                  <img
+                    src="./Images/ic_liquidity.505b3f30.svg"
+                    alt=""
+                    class="Home-benefit-icon-symbol"
+                  />
+                  <div class="Home-benefit-title">Reduce Liquidation Risks</div>
+                </div>
+                <div class="Home-benefit-description">
+                  An aggregate of high-quality price feeds determine when
+                  liquidations occur. This keeps positions safe from temporary
+                  wicks.
+                </div>
+              </div>
+              <div class="Home-benefit">
+                <div class="Home-benefit-icon">
+                  <img
+                    src="./Images/ic_cost.b4a729d3.svg"
+                    alt=""
+                    class="Home-benefit-icon-symbol"
+                  />
+                  <div class="Home-benefit-title">Save on Costs</div>
+                </div>
+                <div class="Home-benefit-description">
+                  Enter and exit positions with minimal spread and zero price
+                  impact. Get the optimal price without incurring additional
+                  costs.
+                </div>
+              </div>
+              <div class="Home-benefit">
+                <div class="Home-benefit-icon">
+                  <img
+                    src="./Images/ic_simpleswaps.2005009f.svg"
+                    alt=""
+                    class="Home-benefit-icon-symbol"
+                  />
+                  <div class="Home-benefit-title">Simple Swaps</div>
+                </div>
+                <div class="Home-benefit-description">
+                  Open positions through a simple swap interface. Conveniently
+                  swap from any supported asset into the position of your
+                  choice.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Home-token-card-section">
+            <div class="Home-token-card-container default-container">
+              <div class="Home-token-card-info">
+                <div class="Home-token-card-info_title">
+                  Two tokens create our ecosystem
+                </div>
+                <div class="Home-token-card-options">
+                  <div class="Home-token-card-option">
+                    <div class="Home-token-card-option-icon">
+                      <img
+                        src="./Images/Untitled.png"
+                        alt="Home-token"
+                        width="40px"
+                      />$ZOMI
+                    </div>
+                    <div class="Home-token-card-option-info">
+                      <div class="Home-token-card-option-title">
+                        $ZOMI is the utility and governance token. Accrues 30%
+                        of the platform's generated fees.
+                      </div>
+                      <div class="Home-token-card-option-apr">
+                        Ethereum APR: 0.00%
+                      </div>
+                      <div class="Home-token-card-option-action">
+                        <div class="buy">
+                          <a href="#" class="default-btn">Buy</a>
+                        </div>
+                        <a href="#" class="default-btn read-more">
+                          Read More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="Home-token-card-option">
+                    <div class="Home-token-card-option-icon">
+                      <img
+                        src="./Images/Untitled1.png"
+                        alt="Home-token"
+                        width="40px"
+                      />$ZLP
+                    </div>
+                    <div class="Home-token-card-option-info">
+                      <div class="Home-token-card-option-title">
+                        $ZLP is the liquidity provider token. Accrues 70% of the
+                        platform's generated fees.
+                      </div>
+                      <div class="Home-token-card-option-apr">
+                        Ethereum APR: 1,648,180,773.23%
+                      </div>
+                      <div class="Home-token-card-option-action">
+                        <div class="buy">
+                          <a href="#" class="default-btn">Buy</a>
+                        </div>
+                        <a href="#" class="default-btn read-more">
+                          Read More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Footer">
+          <div class="Footer-wrapper">
+            <div class="Footer-logo">
+              <a class="Appain" href="#">
+                <img src="./Images/New Logo.png" alt="Logo" />
+                <p class="color">Romi Finance</p>
+              </a>
+            </div>
+            <div class="Footer-social-link-blocks">
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_twitter.9f35b403.svg" alt="twitter"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_medium.f6051b2e.svg" alt="Logo"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_github.dbd4de8a.svg" alt="Github"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_telegram.af1a4a66.svg" alt="Telegram"
+              /></a>
+              <a
+                href="#"
+                class="App-social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="./Images/ic_discord.be4d716c.svg" alt="Discord"
+              /></a>
+            </div>
+            <div class="Footer-links">
+              <a href="#" class="Footer-link">Terms and condition</a>
+              <a href="#" class="Footer-link">Referall Terms</a>
+              <a href="#" class="Footer-link Media">Media Kit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
